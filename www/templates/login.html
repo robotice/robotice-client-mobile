@@ -1,0 +1,29 @@
+<ion-view title="Robotice Control">
+  <ion-content class="padding">
+    <div style="text-align:center">
+      <img src="img/r_logo.png" width="180"/>
+    </div>
+    <h1>Login</h1>
+    <form data-ng-submit="login(credentials)">
+        <div class="list">
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Host</span>
+            <input type="text" data-ng-model="credentials.host" placeholder="Host"/>
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Username</span>
+            <input type="text" data-ng-model="credentials.username" placeholder="Username"/>
+          </label>
+          <label class="item item-input item-floating-label">
+            <span class="input-label">Password</span>
+            <input type="password" data-ng-model="credentials.password" placeholder="Password"/>
+          </label>
+        </div>
+        <div class="txtCenter">
+          <button type="submit" class="button button-outline button-positive">
+            Login
+          </button>
+        </div>
+    </form>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,13 @@
+<ion-view title="Actions">
+  <ion-content class="padding">
+<h1>Actions</h1>
+    <div class="list card">
+    <div data-ng-repeat="action in actions">
+        <a href="" class="item item-icon-left" ng-click="doAction(action.id)">
+            <i class="icon ion-power"></i>
+            {{action.name}}
+        </a>
+    </div>
+    </div>
+  </ion-content>
+</ion-view>
