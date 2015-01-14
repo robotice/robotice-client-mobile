@@ -11,11 +11,14 @@ Usage
 Development in browser
 
 .. code-block:: bash
+
     ionic serve
 
 Build app for platform
-.. code-block: bash
 
+.. code-block:: bash
+
+    localdevel -d 
 
 Read more
 ---------
